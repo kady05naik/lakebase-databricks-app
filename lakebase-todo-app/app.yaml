@@ -1,0 +1,9 @@
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: LAKEBASE_PROJECT_ID
+    value: "your-lakebase-project-name"
+  - name: LAKEBASE_BRANCH_ID
+    value: "production"
+  - name: LAKEBASE_DATABASE_NAME
+    value: "databricks_postgres"

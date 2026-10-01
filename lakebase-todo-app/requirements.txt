@@ -1,0 +1,4 @@
+databricks-sdk==0.103
+psycopg[binary]==3.2.1
+psycopg_pool==3.2.1
+streamlit==1.37.1
